@@ -7,7 +7,7 @@
 # Email: lp349@sussex.ac.uk
 ##################################################
 
-#First commit JB
+#First commit 
 
 import argparse
 import json
