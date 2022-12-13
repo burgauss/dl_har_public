@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "main.py",
             "console": "integratedTerminal",
-            "args": [],
+            "args": ["-d opportunity -v split --logging"],
             "justMyCode": true
         },
         {
