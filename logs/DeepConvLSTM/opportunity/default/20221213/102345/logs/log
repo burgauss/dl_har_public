@@ -1,0 +1,10 @@
+DeepConvLSTM(
+  (conv1): Conv2d(1, 64, kernel_size=(5, 1), stride=(1, 1))
+  (conv2): Conv2d(64, 64, kernel_size=(5, 1), stride=(1, 1))
+  (conv3): Conv2d(64, 64, kernel_size=(5, 1), stride=(1, 1))
+  (conv4): Conv2d(64, 64, kernel_size=(5, 1), stride=(1, 1))
+  (dropout): Dropout(p=0.5, inplace=False)
+  (lstm): LSTM(7232, 128, num_layers=2)
+  (classifier): Linear(in_features=128, out_features=18, bias=True)
+  (activation): ReLU()
+)
